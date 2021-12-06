@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تگ‌های HTML</title>
+
+    <style>
+
+        .grid-container {
+            display: grid;
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: #0c8343;
+            color: #fff;
+            grid-template-areas:
+                    ". . ."
+                    ". . ."
+                    ". . .";
+        }
+        .item {
+            display: flex;
+            border: 10px solid #056538;
+            font-size: 3em;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<h1>بازی دوز با استفده از grid</h1>
+
+
+<div class="grid-container">
+    <div class="item">O</div>
+    <div class="item">X</div>
+    <div class="item">O</div>
+    <div class="item">X</div>
+    <div class="item">O</div>
+    <div class="item">O</div>
+    <div class="item">O</div>
+    <div class="item">X</div>
+    <div class="item">X</div>
+</div>
+
+</body>
+</html>
